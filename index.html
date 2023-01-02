@@ -45,11 +45,16 @@
 				<!-- Two -->
 					<section id="overview">
 						<h2>About Vis4Grad</h2>
-						<p>Graduate admissions is a complex decision making process where cognitive and implicit biases may impact the way reviewers
-							individually and collectively make decisions. We introduce a visualization system, Vis4GRAD, that promotes reviewers’ self-reflection and
-							scrutiny to ensure fair and consistent review processes. The visualization interface logs reviewers’ interactions in order to provide a
-							granular analysis of review behaviors across attributes such as race and gender of applicants which can relate to potentially biased
-							processes and inform review procedures in subsequent cycles. The system was used for the 2022 Ph.D.admissions in the Computer Science department at Emory.</p>
+						<p>
+							Graduate admissions is a complex decision making process where cognitive and implicit biases may impact the way reviewers individually and collectively make decisions. Vis4GRAD is an interactive visualization system that promotes reviewers’ self-reflection and scrutiny to ensure <i>fair</i> and <i>consistent</i> review processes. The system supports 
+							<ul>
+								<li>Reviewing applications (viewing application materials, entering ratings),</li>
+								<li>Analysis of <i>individual</i> review behaviors (time spent, ratings of competitiveness) across attributes such as race and gender of applicants, </li>
+								<li>Facilitating group discussion and admissions decisions, and</li>
+								<li>Analysis of <i>committee-level</i> review behaviors.</li>
+							</ul>
+							These analyses can illuminate potentially biased review processes (e.g., spending more time on average on male applicants) so that individual reviewers may self-correct and committees can collectively reflect and revise strategies and processes in subsequent review cycles. 
+						</p>
 					</section>
 					<section id="detail">
 						<h2>System Overview</h2>
@@ -84,6 +89,32 @@
 					
 					</section>
 
+					<section id="findings">
+						<h2>Findings from 2022 Case Study</h2>
+						<p>
+							The Vis4Grad system was used for the 2022 Ph.D.admissions cycle in the Computer Science and Informatics program at Emory. Below we summarize some findings from our case study. 
+						</p>
+
+						<h3>Vis4Grad illuminates disparities in <i>time spent</i> across applications.</h3>
+						<p>
+							<img class="image fit thumb" src="images/focustime_by_user.pdf" alt="" /></a>
+							The above figure highlights that individual reviewers from the admissions committee (P1-P12) had highly variable distributions of time spent across male and female applicants. Many reviewers (P1, P5, P7, P10, P11) spent more time on average reviewing male applications than female applications. Some reviewers, on the other hand, spend more time on female applicants on average (P6, P12), while others allocated time relatively evenly (P3, P4, P9).
+						</p>
+
+						<h3>Vis4Grad affirms <i>admissions decisions</i> proportional to the application pool across dimensions like race and gender.</h3>
+						<p>
+							<img class="image fit thumb" src="images/decisions.pdf" alt="" /></a>
+							While there was individual variability among reviewers on time spent across applications, the admissions decisions were ultimately relatively proportional across gender (left) and race (right). 
+						</p>
+
+						<h3>Vis4Grad led to changes in reviewers' <i>awareness, behaviors, and decisions</i>.</h3>
+						<p>
+							<img class="image fit thumb" src="images/table.png" alt="" /></a>
+							Interactions with the Individual Summary page led to increased <i>awareness</i> of review practices (<i>" hadn’t really spent time on their writing sample"</i>), led them to <i>behave</i> differently (<i>"So I went back and I had the chance to read over it"</i>), and ultimately change some <i>decisions</i> (<i>" think a student had uploaded something in the writing sample but they hadn’t mentioned it on their CV, so it was a good chance to revise what I had scored for their research preparednes"</i>). The table above also shows that the interactions with the Individual Summary page (<i>hovers</i>) led these reviewers (P1, P5, P9, P10, P12) to behave differently (<i>revisit</i> some applications) and make different decisions (<i>changes in recommendation). 
+						</p>
+
+					</section>
+
 
 				<!-- Three -->
 					<section id="quotes">
@@ -91,15 +122,11 @@
 						<div class="row">
 						<article class="col-6 col-12-xsmall">
 							<p><i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
-							...tomorrow we will run faster, stretch out our arms farther...
-							And then one fine morning&mdash; So we beat on, boats against the
-							current, borne back ceaselessly into the past.</p>
+							[about committee-level calibration] <i>...was super helpful for helping me to calibrate how tough I am as a reviewer for the ratings.</i></p>
 						</article>
 						<article class="col-6 col-12-xsmall">
 							<p><i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
-							...tomorrow we will run faster, stretch out our arms farther...
-							And then one fine morning&mdash; So we beat on, boats against the
-							current, borne back ceaselessly into the past.</p>
+							[about heightened awareness] <i>...I identified outliers like someone that I had rated as having high research preparedness but I did not rate them overall very highly.</i></p>
 						</article>
 					</div>
 						
